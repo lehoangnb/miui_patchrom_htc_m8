@@ -29687,7 +29687,6 @@
     .param p2, "always"    # Z
 
     .prologue
-    .line 7016
     iget-object v0, p0, Lcom/android/server/policy/PhoneWindowManager;->mHandler:Landroid/os/Handler;
 
     new-instance v1, Lcom/android/server/policy/PhoneWindowManager$26;
@@ -29696,7 +29695,6 @@
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 7015
     return-void
 .end method
 
