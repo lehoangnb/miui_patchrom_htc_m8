@@ -25,7 +25,8 @@ private-phone-apps := \
 	Stk \
 	telresources \
 	ThemeManager \
-	WAPPushManager
+	WAPPushManager \
+	GestureHandler
 
 private-phone-priv-apps := \
 	AudioFX \
@@ -41,9 +42,6 @@ private-phone-priv-apps := \
 	SharedStorageBackup \
 	Shell \
 	Tag \
-	Telecom \
-	TelephonyProvider \
-	TeleService \
 	ThemesProvider \
 	StatementService \
 	CarrierConfig
