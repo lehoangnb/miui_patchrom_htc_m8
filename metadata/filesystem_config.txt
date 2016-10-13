@@ -2403,4 +2403,3 @@ system/xbin/zcat 0 2000 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/xbin/zip 0 2000 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/StockSettings 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/StockSettings/StockSettings.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-View
