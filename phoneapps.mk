@@ -44,5 +44,6 @@ private-phone-priv-apps := \
 	Tag \
 	ThemesProvider \
 	StatementService \
+	TeleService \
 	CarrierConfig
 
