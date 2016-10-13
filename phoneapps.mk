@@ -26,7 +26,6 @@ private-phone-apps := \
 	telresources \
 	ThemeManager \
 	WAPPushManager \
-	GestureHandler
 
 private-phone-priv-apps := \
 	AudioFX \
