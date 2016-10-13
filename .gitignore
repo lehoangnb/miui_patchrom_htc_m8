@@ -2,3 +2,4 @@
 stockrom.zip
 /temp
 *.*~
+.delete-zip-file-when-clean
