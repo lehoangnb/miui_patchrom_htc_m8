@@ -1,5 +1,6 @@
 # miui init rc
 import /init.miui8.rc
+import /system/etc/init.miui.rc
 
 on init
     # Create cgroup mount point for memory and freezer
