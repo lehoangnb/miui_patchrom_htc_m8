@@ -30,11 +30,11 @@ Then to sync up:
 
 $ repo sync
 
-$ git clone https://github.com/linhphi9x94/Miui8_Patchrom_HTC-M8.git m8
+$ git clone -b m6.0 https://github.com/CryToCry96/mui_patchrom_htc_m8 htc_m8
 
 Build
 --------
-$ . build/envsetup.sh && cd m8
+$ . build/envsetup.sh && cd htc_m8
 
 $ make fullota
 
