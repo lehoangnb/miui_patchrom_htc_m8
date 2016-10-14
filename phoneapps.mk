@@ -26,6 +26,7 @@ private-phone-apps := \
 	telresources \
 	ThemeManager \
 	WAPPushManager \
+	FM2
 
 private-phone-priv-apps := \
 	AudioFX \
