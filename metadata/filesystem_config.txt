@@ -418,7 +418,6 @@ system/bin/start-ssh 0 2000 755 selabel=u:object_r:system_file:s0 capabilities=0
 system/bin/stat 0 2000 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/bin/stop 0 2000 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/bin/strings 0 2000 755 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/bin/su 0 2000 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/bin/surfaceflinger 0 2000 755 selabel=u:object_r:surfaceflinger_exec:s0 capabilities=0x0
 system/bin/svc 0 2000 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/bin/swapoff 0 2000 755 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -2392,7 +2391,6 @@ system/xbin/showslab 0 2000 755 selabel=u:object_r:system_file:s0 capabilities=0
 system/xbin/simpleperf 0 2000 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/xbin/sqlite3 0 2000 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/xbin/strace 0 2000 755 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/xbin/su 0 2000 6755 selabel=u:object_r:su_exec:s0 capabilities=0x0
 system/xbin/taskstats 0 2000 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/xbin/tcpdump 0 2000 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/xbin/unpigz 0 2000 755 selabel=u:object_r:system_file:s0 capabilities=0x0
