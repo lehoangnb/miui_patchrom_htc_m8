@@ -51,7 +51,7 @@ local-pre-zip-misc:
 	@echo copy files
 	cp -a -rf other/system/* $(ZIP_DIR)/system/
 
-	#@echo goodbye! miui prebuilt binaries!
-	#rm -rf $(ZIP_DIR)/system/bin/app_process32_vendor
-	#cp -rf stockrom/system/bin/app_process32 $(ZIP_DIR)/system/bin/app_process32
+	@echo goodbye! miui prebuilt binaries!
+	rm -rf $(ZIP_DIR)/system/bin/app_process32_vendor
+	cp -rf stockrom/system/bin/app_process32 $(ZIP_DIR)/system/bin/app_process32
 
