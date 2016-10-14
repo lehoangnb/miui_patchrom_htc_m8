@@ -13,7 +13,7 @@ local-modified-apps :=
 local-modified-jars := org.cyanogenmod.platform
 
 # All apks from MIUI
-local-miui-removed-apps := FM SogouInput
+local-miui-removed-apps := FM SogouInput Email
 
 local-miui-modified-apps := TeleService
 local-modified-apps := TeleService
