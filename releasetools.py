@@ -12,7 +12,7 @@ def AddAssertions(info):
     edify = info.script
     for i in xrange(len(edify.script)):
         if " ||" in edify.script[i] and ("ro.product.device" in edify.script[i] or "ro.build.product" in edify.script[i]):
-            edify.script[i] = edify.script[i].replace(" ||", ' || getprop("ro.build.product") == "htc_m8" || getprop("ro.product.device") == "htc_m8whl" || getprop("ro.build.product") == "htc_m8wlv" ||')
+            edify.script[i] = edify.script[i].replace(" ||", ' || getprop("ro.build.product") == "htc_m8" || getprop("ro.build.product") == "htc_m8whl" || getprop("ro.build.product") == "htc_m8wl" ||')
             return
 
 def AddArgsForSetPermission(info):
