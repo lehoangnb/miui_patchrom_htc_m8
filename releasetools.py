@@ -12,7 +12,7 @@ def AddAssertions(info):
     edify = info.script
     for i in xrange(len(edify.script)):
         if " ||" in edify.script[i] and ("ro.product.device" in edify.script[i] or "ro.build.product" in edify.script[i]):
-            edify.script[i] = edify.script[i].replace(" ||", ' || getprop("ro.build.product") == "htc_m8" || getprop("ro.build.product") == "htc_m8whl" || getprop("ro.build.product") == "htc_m8wl" ||')
+            edify.script[i] = edify.script[i].replace(" ||", ' || getprop("ro.product.device") == "htc_m8" || getprop("ro.build.product") == "htc_m8" || getprop("ro.product.device") == "htc_m8whl" || getprop("ro.build.product") == "htc_m8whl" || getprop("ro.product.device") == "htc_m8wl" || getprop("ro.build.product") == "htc_m8wl" || getprop("ro.product.device") == "m8" || getprop("ro.build.product") == "m8" || getprop("ro.product.device") == "m8wl" || getprop("ro.build.product") == "m8wl" || getprop("ro.product.device") == "m8wlv" || getprop("ro.build.product") == "m8wlv" || getprop("ro.product.device") == "m8vzw" || getprop("ro.build.product") == "m8vzw" || getprop("ro.product.device") == "m8whl" || getprop("ro.build.product") == "m8whl" || getprop("ro.product.device") == "m8spr" || getprop("ro.build.product") == "m8spr" ||')
             return
 
 def AddArgsForSetPermission(info):
