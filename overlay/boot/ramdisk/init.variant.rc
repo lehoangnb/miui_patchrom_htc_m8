@@ -1,3 +1,20 @@
+service restart_ril /system/bin/sh /hl.script
+    class main
+    oneshot
+    disabled
+
+service_redefine ril-daemon /system/bin/rild
+    class main
+    socket rild stream 660 root radio
+    socket sap_uim_socket1 stream 660 bluetooth bluetooth
+    socket rild-debug stream 660 radio system
+    user root
+    group radio cache inet misc audio log qcom_diag
+    disabled
 
 on property:sys.boot_completed=1
-    restart ril-daemon
+    start ril-daemon
+
+
+on property:sys.boot_completed=1 && property:gsm.sim.state=READY
+    start restart_ril

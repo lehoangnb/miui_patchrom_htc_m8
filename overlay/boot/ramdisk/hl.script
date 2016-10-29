@@ -1,0 +1,22 @@
+#!/system/bin/sh
+#
+# This hack for fix signal icon show as No Simcard
+# I dont known why but it work =D
+#
+
+
+export PATH=/system/xbin:$PATH
+
+sleep 5 #Do stop ril-daemon after 5s
+
+status=`getprop ro.signal_icon_fix`
+
+if [ "$status" != "ok" ]; then
+    stop ril-daemon
+    sleep 3 #Do start again after 3s
+    start ril-daemon
+    sleep 15 #Do restart after 15s
+    restart ril-daemon
+    setprop ro.signal_icon_fix ok
+fi
+
