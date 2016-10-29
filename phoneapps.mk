@@ -2,29 +2,20 @@ local-phone-apps = $(private-phone-apps)
 local-phone-priv-apps = $(private-phone-priv-apps)
 
 private-phone-apps := \
-	BasicDreams \
 	Bluetooth \
 	BluetoothExt \
 	BluetoothMidiService \
 	CertInstaller \
-	Galaxy4 \
-	HoloSpiralWallpaper \
 	KeyChain \
-	LiveWallpapers \
 	Nfc \
-	NoiseField \
 	PacProcessor \
-	PhaseBeam \
-	PhotoTable \
 	PrintSpooler \
 	LatinIME \
 	CaptivePortalLogin \
 	CIRModule \
 	DocumentsUI \
-	Dotcase \
 	Stk \
 	telresources \
-	ThemeManager \
 	WAPPushManager \
 	FM2
 
@@ -34,7 +25,6 @@ private-phone-priv-apps := \
 	CellBroadcastReceiver \
 	CMSettingsProvider \
 	CMAudioService \
-	ThemeManagerService \
 	ExternalStorageProvider \
 	FusedLocation \
 	InputDevices \
@@ -42,8 +32,5 @@ private-phone-priv-apps := \
 	SharedStorageBackup \
 	Shell \
 	Tag \
-	ThemesProvider \
-	StatementService \
-	TeleService \
-	CarrierConfig
+	TeleService
 
